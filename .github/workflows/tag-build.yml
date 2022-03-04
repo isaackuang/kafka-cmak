@@ -67,7 +67,7 @@ jobs:
           file: ./cmak2zk/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/cmak2zk:latest,${{ steps.meta-cmak.outputs.tags }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/cmak2zk:latest,${{ steps.meta-cmak2zk.outputs.tags }}
           labels: |
             org.opencontainers.image.title=${{ github.event.repository.name }}
             org.opencontainers.image.description=${{ github.event.repository.description }}
