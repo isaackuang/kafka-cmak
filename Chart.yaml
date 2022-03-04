@@ -1,0 +1,7 @@
+apiVersion: v2
+name: cmak-operator
+description: Manage and vizualize Kafka clusters with CMAK (prev. Kafka Manager).
+icon: https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg
+type: application
+version: 0.0.0 # actual chart version is managed by git tags
+appVersion: 1.0.0

@@ -1,0 +1,7 @@
+venv
+CHANGELOG.md
+*.tgz
+node_modules
+.idea
+values-dev.yaml
+__pycache__
